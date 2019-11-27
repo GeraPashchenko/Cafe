@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0, width = device-width">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/sideBar.js"></script>
+    <script type="text/javascript" src="js/ToOrder.js"></script>
+
+    <link rel="shortcut icon" href="img/unnamed.png" type="image/png">
+    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <title>Bar</title>
+
+</head>
+
+<body>
+    <header>
+
+        <input type="checkbox" id="menu-mobile" />
+
+        <nav role="navigation">
+            <!-- навигация -->
+
+            <label for="menu-mobile" class="toggle-button" onclick>Menu</label>
+
+            <ul class="main-menu">
+                <!-- пункты меню -->
+
+                <li><a href="index.html">Main</a></li>
+                <li><a href="HIT.html">How it works</a></li>
+                <li><a href="Order.html">Order</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="Flex-bar">
+        <div class="Side-menu">
+            <div id="Summ-span">
+                <button id="Sum">Order price : 0 $ </button>
+
+            </div>
+        </div>
+        <div id="ElementsToInsert"></div>
+
+
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            ShowOrder();
+
+        });
+
+    </script>
+</body>
+
+</html>

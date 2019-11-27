@@ -1,0 +1,196 @@
+/* ////////////////////////// MAIN //////////////////////////// */
+body{   
+    background-color: rgb(0, 69, 58);
+}
+#Coffee,#Salad,#Soda,#Bakery,#Pizza{
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
+    font-size: 30px;
+    color: white;  
+    padding: 5px;
+    outline: none;
+    height: 80px;
+}
+
+#Coffee-bar{
+    margin-right: 20px;
+    order: 1;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#Coffee:hover,#Salad:hover,#Soda:hover,#Bakery:hover,#Pizza:hover { background: rgb(0, 0, 0); }
+
+
+#Coffee,#Salad,#Soda
+{
+    background: linear-gradient(to right,#0c0601,#411d00);
+}
+
+#Bakery,#Pizza
+{
+    background: linear-gradient(to right,#221000,#472300);
+}
+
+.HIT{
+    border-radius: 10px;
+    border: solid 2px ;
+    border-color: #000000;
+    width: 400px;
+}
+p { 
+  font-size: 30px;
+   
+   margin-bottom: 15px; 
+    color: #e0c9b6;
+    text-align: center;
+   }
+
+
+
+#ElementsToInsert{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+order: 2;
+}
+
+.Flex-bar{
+ display: flex;
+ flex-direction: row;
+}
+
+.Side-menu
+{  
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.Bar-images {
+    border-radius: 10px;
+    border: solid 2px ;
+    border-color: #000000;
+    width: 200px;
+} 
+
+.Bar-buttons{
+    margin-top: 5px;
+    width: inherit;
+    padding: 5px;
+}
+.Bar-buttons:hover {
+    color: red;
+}
+
+
+#imgdiv{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+}
+
+
+#spandiv{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    
+}
+
+.description-span{
+    padding: 5px;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #FDE3A7;
+    text-align: center;
+    font-size: 25px;
+    width: 140px;
+}
+
+.description-price{
+    
+    width: 55px;
+    padding: 5px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color:  rgb(68, 53, 20);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    
+}
+/* /////////////////////////  ORDER  ///////////////////////////// */
+
+#imgdivOrder{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+}
+.Delete-buttons{
+    border: none;
+    padding: 5px;
+    height: 38px;
+    background: url(delete.png) no-repeat rgb(112, 89, 89) center;
+    width: 35px;
+}
+.Delete-buttons:hover{
+    background: url(delete.png) no-repeat rgb(121, 38, 38) center;
+    
+}
+#Price_Trash_div{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+#spandivOrder{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    
+}
+
+.description-span-Order{
+    padding: 5px;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #FDE3A7;
+    text-align: center;
+    font-size: 25px;
+}
+
+.description-price-Order{
+    height: 40px;
+    padding: 5px;
+    width: 160px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color:  rgb(68, 53, 20);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#Sum{
+    background: linear-gradient(to right,#532a07,#8a3e00);
+    color: #ffffff;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px double;
+    border-color: #000000;
+}
